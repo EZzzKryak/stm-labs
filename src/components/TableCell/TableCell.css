@@ -1,0 +1,15 @@
+.table__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    word-break: break-all;
+}
+.table__cell:not(:last-child) {
+    border-right: 2px solid black;
+}
+.table__cell-img-wrapper {
+    position: relative;
+}

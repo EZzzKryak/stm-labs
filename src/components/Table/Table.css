@@ -1,0 +1,11 @@
+.table {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-spacing: 0;
+    width: 100%;
+}
+.table__not-users {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.search {
+    justify-self: start;
+    margin-right: auto;
+}
+.search__input {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}

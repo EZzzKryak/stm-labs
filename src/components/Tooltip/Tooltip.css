@@ -1,0 +1,11 @@
+.tooltip {
+    position: absolute;
+    top: 0;
+    left: 130%;
+    height: 150px;
+    width: 150px;
+}
+.tooltip-img {
+    height: 100%;
+    width: 100%;
+}
