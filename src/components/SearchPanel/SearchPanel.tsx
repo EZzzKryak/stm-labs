@@ -11,15 +11,19 @@ const SearchPanel: FC<SearchPanelProps> = memo(({handleChange, searchValue}) => 
         e.preventDefault();
     }
 
+    const handleReset = () => {
+        handleChange({target: {value: ''}} as ChangeEvent<HTMLInputElement>);
+    }
     return (
-        <form action="submit" className="search" onSubmit={handleSubmit}>
+        <form action='submit' className='search' onSubmit={handleSubmit}>
             <input
                 value={searchValue}
-                className="search__input"
-                type="text"
+                className='search__input'
+                type='text'
                 placeholder='Введите имя'
                 onChange={handleChange}    
             />
+            <button onClick={handleReset} type='button' className='search__reset'>Очистить</button>
         </form>
     );
 });

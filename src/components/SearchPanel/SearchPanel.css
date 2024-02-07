@@ -1,9 +1,24 @@
 .search {
+    display: flex;
+    align-items: center;
     justify-self: start;
     margin-right: auto;
 }
 .search__input {
+    border: 2px solid black;
     width: 250px;
     height: 30px;
-    border-radius: 4px;
+    border-radius: 6px;
+}
+.search__reset {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: background .3s;
+}
+.search__reset:hover {
+    background-color: #dfdfdf;
 }
