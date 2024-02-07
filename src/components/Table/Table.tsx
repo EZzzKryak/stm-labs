@@ -8,8 +8,6 @@ interface TableProps {
 }
 
 const Table: FC<TableProps> = memo(({users}) => {
-    console.log('render');
-
     return (
         users && users.length > 0 ? (
             <table className='table'>

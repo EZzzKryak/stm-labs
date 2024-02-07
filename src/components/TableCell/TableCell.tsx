@@ -1,7 +1,6 @@
 import { FC, useState } from "react";
 import './TableCell.css';
 import Tooltip from "../Tooltip/Tooltip";
-import { createPortal } from "react-dom";
 
 interface TableCellProps {
     userInfo: string;
